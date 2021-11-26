@@ -1,0 +1,98 @@
+.header {
+    background-color: rgb(15, 57, 99);
+    color: white;
+    padding: 25px 80px 50px;
+}
+
+.illustrations {
+    color: tomato;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.quote-section {
+    background-color: rgba(177, 4, 4, 0.39);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 36px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middlebox {
+    background-color: rgb(15, 57, 99);
+    color: snow;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 10px;
+    margin: 25px;
+}
+
+.footer {
+    background-color: rgb(15, 57, 99);
+    display: flex;
+    justify-content: center;
+    color: oldlace;
+    padding: 30px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    gap: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    height: 100vh;
+    font-family: monospace;
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.header-bottom {
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+}
+.header-left {
+    gap: 40px;
+}
+img {
+    object-fit: contain;
+    display: flex;
+    max-width: 300px;
+    max-height: 150px;
+}
+
+button {
+    background-color: rgba(100, 9, 21, 0.473);
+    color: thistle;
+    border-radius: 20%;
+    margin: 20px 0px;
+    padding: 5px 15px;
+}
+
+.illustration-boxes {
+    display: flex;
+}
