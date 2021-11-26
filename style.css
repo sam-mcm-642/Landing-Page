@@ -1,5 +1,5 @@
 .header {
-    background-color: rgb(15, 57, 99);
+    background-color: rgb(1, 26, 51);
     color: white;
     padding: 25px 80px 50px;
 }
@@ -28,7 +28,7 @@
 }
 
 .middlebox {
-    background-color: rgb(15, 57, 99);
+    background-color: rgb(1, 26, 51);
     color: snow;
     display: flex;
     justify-content: space-between;
@@ -38,7 +38,7 @@
 }
 
 .footer {
-    background-color: rgb(15, 57, 99);
+    background-color: rgb(1, 26, 51);
     display: flex;
     justify-content: center;
     color: oldlace;
@@ -95,4 +95,13 @@ button {
 
 .illustration-boxes {
     display: flex;
+    gap: 8px;
+    border-color: rgb(189, 6, 30);
+    border: 6px;
+    border-radius: 25px;
+}
+
+img {
+    border-radius: 25px;
+    margin-bottom: 10px;
 }
